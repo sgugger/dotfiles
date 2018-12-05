@@ -3,3 +3,5 @@
 	name = Sylvain Gugger
 [credential]
 	helper = cache
+[push]
+	default = simple
