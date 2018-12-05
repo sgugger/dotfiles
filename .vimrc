@@ -6,9 +6,9 @@ filetype off
 "set ttyfast
 set mouse=a
 set t_Co=256
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
 
 set foldcolumn=3
 
@@ -53,7 +53,7 @@ au BufNewFile,BufRead *.js,*.html,*.css: set tabstop=2 softtabstop=2 shiftwidth=
 set list
 set listchars=tab:>-
 
-let mapleader = "\\"
+let mapleader = "!"
 map <Leader>ve :sp $HOME/.vimrc<CR>
 map <Leader>vs :source $HOME/.vimrc<CR>
 
