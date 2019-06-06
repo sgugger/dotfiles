@@ -1,8 +1,8 @@
 From https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
 
 ```
-echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> ~/.bash_profile
-source ~/.bash_profile
+echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> ~/.bashrc
+source ~/.bashrc
 echo ".cfg" >> .gitignore
 git clone --bare https://github.com/sgugger/dotfiles.git .cfg/
 config checkout
